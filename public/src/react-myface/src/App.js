@@ -1,12 +1,25 @@
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { PostsList } from './components/PostsList';
+import { UsersList } from './components/UsersList';
+import { User } from './components/User'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-   
-    <h2>Hello Main</h2>
-    <PostsList />
+      <Router>
+        <Switch>
+          <Route path="/posts">
+            <PostsList />
+          </Route>
+          <Route path="/users">
+            <UsersList />
+          </Route>
+          <Route path="/users/:id">
+            <User />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
