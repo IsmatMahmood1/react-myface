@@ -19,14 +19,7 @@ export function PostsList() {
     if (!postData) {
         return <div>Waiting for data...</div>
     }
-    console.log(postData)
-
-    // function handleClick(interaction, postId){
-    //     action={`/posts/${post.postId}/${interaction}/`};
-    //     method : 'POST'
-    // }
-
-
+ 
     return (
         <div>
             {postData.results.map(post =>
