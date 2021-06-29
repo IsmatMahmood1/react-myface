@@ -11,7 +11,7 @@ function App() {
       <Router>
         <NavBar />
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <PostsList />
           </Route>
           <Route path="/posts">

@@ -254,7 +254,7 @@ const posts = [
     {"message":"Organic transitional leverage","imageUrl":"https://picsum.photos/id/675/600","createdAt":"2020-11-22 07:52:37","userId":39},
     {"message":"Decentralized asymmetric utilisation","imageUrl":"https://picsum.photos/id/104/600","createdAt":"2020-04-06 17:52:34","userId":85},
     {"message":"Distributed solution-oriented model","imageUrl":"https://picsum.photos/id/541/600","createdAt":"2020-07-19 08:14:15","userId":50},
-    {"message":"Realigned bandwidth-monitored workforce","imageUrl":"https://picsum.photos/id/697/600","createdAt":"2021-01-26 08:43:43","userId":44},
+    {"message":"Realigned bandwidth-monitored workforce","imageUrl":"https://picsum.photos/id/69/600","createdAt":"2021-01-26 08:43:43","userId":44},
     {"message":"Future-proofed zero defect success","imageUrl":"https://picsum.photos/id/264/600","createdAt":"2020-12-07 21:34:02","userId":71},
     {"message":"Function-based logistical infrastructure","imageUrl":"https://picsum.photos/id/589/600","createdAt":"2020-10-11 06:00:18","userId":23},
     {"message":"Compatible radical artificial intelligence","imageUrl":"https://picsum.photos/id/932/600","createdAt":"2020-09-06 01:25:57","userId":37},

@@ -13,7 +13,7 @@ export function User() {
     }
     useEffect(() => {
         fetchData(`/users/${id}`)
-    }, []);
+    },[]);
 
     if (!userData) {
         return <div>Waiting for data...</div>
